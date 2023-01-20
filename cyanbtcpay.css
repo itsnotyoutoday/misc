@@ -14,61 +14,55 @@
 
 /*======BACKGROUND COLOR======*/
 html {
-    background-color: #fff !important;  /*===BACKGROUND COLOR===*/
+    background-color: #00c3ff !important;   /*===BACKGROUND COLOR===*/
 }
 
 .modal.page {
-    background-color: #fff;   /*===BACKGROUND COLOR===*/
-}
-/*=============================*/
-
-/*=======OUTLINE SETTINGS=======*/
-.modal-content{
-  box-shadow: none; /*===OUTSIDE SHADOW===*/
-  outline: 1px solid #000000; /*===OUTLINE===*/
-  border-radius: 0px;   /*===ROUNDED CORNERS===*/
+    background-color: #00c3ff;  /*===BACKGROUND COLOR===*/
 }
 /*=============================*/
 
 /*=======HEADER SETTINGS=======*/
 .top-header {
-    background-image: linear-gradient(to right, #fff, #fff);  /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
-  color: #e1e1e1;
-  border-radius:0px;  /*===ROUNDED CORNER SETTINGS===*/
+    background-color: #408cca;  /*===HEADER BACKGROUND COLOR===*/
+  border-radius:6px;  /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .top-header .timer-row__progress-bar {
-  border-top: 1px solid #000000;
-    background: #000000;    /*===PROGRESS BAR COLOR===*/
+  border-top: 1px solid #00c3ff;
+    border-bottom: 1px solid #00c3ff;
+    background: #00c3ff;    /*===PROGRESS BAR COLOR===*/
 }
 
 .top-header .timer-row {
-    border-top: 1px solid #000000;  /*===COLORED LINE ABOVE PROGRESS BAR===*/
-  border-bottom: 1px solid #e1e1e1; /*===COLORED LINE ABOVE PROGRESS BAR===*/
-  background-image: linear-gradient(to right, #7a7a7a, #7a7a7a);  /*===PROGRESS BAR BACKGROUND COLOR===*/
+    border-top: 1px solid #00c3ff;  /*===COLORED LINE ABOVE PROGRESS BAR===*/
+  border-bottom: 1px solid #00c3ff; /*===COLORED LINE ABOVE PROGRESS BAR===*/
+    background: #27384b;  /*===PROGRESS BAR BACKGROUND COLOR===*/
 }
 
 .header__icon__img {
   display: block;
-  width:360px;  /*===HEADER DIMENSIONS===*/
-  height:60px;  /*===HEADER DIMENSIONS===*/
-  margin-left:-10px;  /*===HEADER POSITION CORRECTION===*/
-  margin-top:-10px;   /*===HEADER POSITION CORRECTION===*/
+  width:;   /*===HEADER DIMENSIONS===*/
+  height:;  /*===HEADER DIMENSIONS===*/
+  margin-left: 50%;   /*===HEADER POSITION CORRECTION===*/
+  margin-top: auto;   /*===HEADER POSITION CORRECTION===*/
 }
 /*============================*/
 
 /*=====PAY WITH / AMOUNTS=====*/
 .line-items {
-    background-color: #000000;  /*===BACKGROUND COLOR===*/
-    color: #e1e1e1 !important;    /*===TEXT COLOR===*/
+    background-color: #111316;  /*===BACKGROUND COLOR===*/
+    color: #fff !important;   /*===TEXT COLOR===*/
   padding-top: 15px;
     padding-bottom: 10px;
+    border-top: 1px solid #00c3ff !important;
+  border-bottom: 0px solid #00c3ff;
 }
 
 .buyerTotalLine {
-    border-top: 1px solid #e1e1e1;
-    background-color: #252525;
-    color: #e1e1e1;
+    border-top: 1px solid #00c3ff;
+    background-color: #27384b;
+    color: #fff;
   padding-top: 15px;
     padding-bottom: 12px;
 }
@@ -76,63 +70,68 @@ html {
 
 /*=======PAYMENT TABS=======*/
 .payment-tabs__slider {
-  background: #ec912f;  /*===SLIDER COLOR===*/
+  background: #00c3ff;  /*===SLIDER COLOR===*/
 }
 
 .payment-tabs {
-    background-color: #252525;  /*===BACKGROUND COLOR===*/
-    border-top: 1px solid #ec912f;  /*===COLORED LINE ABOVE PAYMENT TABS===*/
+    background-color: #27384b;  /*===BACKGROUND COLOR===*/
+  color: #fff;
+    border-top: 1px solid #00c3ff;  /*===COLORED LINE ABOVE PAYMENT TABS===*/
+  border-bottom: 1px solid #00c3ff; /*===COLORED LINE BELOW PAYMENT TABS===*/
 }
 /*===========================*/
 
 /*===OPEN IN WALLET BUTTON===*/
 .action-button {
-    color: #e1e1e1 !important;
-    background-image: linear-gradient(to top, #3f3f3f, #7a7a7a);    /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-  border-color:#e1e1e1;   /*===BUTTON BORDER COLOR===*/
-  box-shadow: 0px 0px 0px -3px #000000;   /*===DROP SHADOW SETTINGS===*/
-  border-radius: 0px;   /*===ROUNDED CORNER SETTINGS===*/
+    color: #fff !important;
+    background-image: linear-gradient(to bottom, #00c3ff, #408cca);   /*===BUTTON BACKGROUND COLOR GRADIENT===*/
+  border-color:#fff;  /*===BUTTON BORDER COLOR===*/
+  box-shadow: 0px 0px 15px -3px #000000;  /*===DROP SHADOW SETTINGS===*/
+  border-radius: 6px;   /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .action-button:hover {
-    background-image: linear-gradient(to bottom, #3f3f3f, #000000); /*===HOVER BUTTON BACKGROUND COLOR GRADIENT===*/
-  border-color:#e1e1e1; /*===BUTTON BORDER COLOR===*/
+    background-image: linear-gradient(to top, #00c3ff, #408cca);  /*===HOVER BUTTON BACKGROUND COLOR GRADIENT===*/
+  border-color:#fff; /*===BUTTON BORDER COLOR===*/
 }
 /*============================*/
 
 /*===BOLT/NODE INFO BUTTONS===*/
 .btnGroupLnd {
-    box-shadow: 0px 0px 0px 0px #000000;  /*===DROP SHADOW SETTINGS===*/
-  background-image: linear-gradient(to top, #7a7a7a, #7a7a7a);  /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-  background-color:#000000; /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
-  border-color:#000000; /*===BUTTON BORDER COLOR===*/
-  border-radius: 0px; /*===ROUNDED CORNER SETTINGS===*/
+    box-shadow: 0px 0px 15px -3px #000000;  /*===DROP SHADOW SETTINGS===*/
+  background-image: linear-gradient(to right, #00c3ff, #408cca);  /*===BUTTON BACKGROUND COLOR GRADIENT===*/
+  background-color:#00c3ff; /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
+  border-color:#fff;  /*===BUTTON BORDER COLOR===*/
+  border-radius: 6px; /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .btnGroupLnd button {
-  background-image:  linear-gradient(to top, #3f3f3f, #7a7a7a); /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-  background-color:#000000; /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
-  border-color: #000000; /*===BUTTON BORDER COLOR===*/
-  border-radius: 0px; /*===ROUNDED CORNER SETTINGS===*/
+  background-image: linear-gradient(to right, #00c3ff, #408cca); /*===BUTTON BACKGROUND COLOR GRADIENT===*/
+  background-color:#00c3ff; /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
+  border-color: #fff; /*===BUTTON BORDER COLOR===*/
 }
 
 .btnGroupLnd button.active {
-  background-image:  linear-gradient(to bottom, #3f3f3f, #7a7a7a);  /*===ACTIVE BUTTON BACKGROUND COLOR GRADIENT===*/
-  background-color:#000000; /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
-  border-color: #000000;    /*===BUTTON BORDER COLOR===*/
-  border-radius: 0px;   /*===ROUNDED CORNER SETTINGS===*/
+  background-image: linear-gradient(to right, #00c3ff, #408cca);  /*===ACTIVE BUTTON BACKGROUND COLOR GRADIENT===*/
+  background-color:#00c3ff; /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
+  border-color: #fff;   /*===BUTTON BORDER COLOR===*/
 }
 /*===========================*/
 
 /*=====CURRENCY DROPDOWN=====*/
 .payment__currencies {
-  border-radius:0px;  /*===ROUNDED CORNER SETTINGS===*/
+  border-radius:6px;  /*===ROUNDED CORNER SETTINGS===*/
+  background-color: #27384b; /*===BACKGROUND COLOR DROPDOWN MENU===*/
+}
+
+.payment__currencies:hover {
+  background: #00c3ff; /*===MENU HOVER HIGHLIGHT COLOR===*/
 }
 
 .currency-selection {
-    background-color: #252525;  /*===BACKGROUND COLOR===*/
-    border-bottom: 0px solid #e1e1e1;
-    color: #e1e1e1; /*===TEXT COLOR===*/
+    background-color: #408cca;  /*===BACKGROUND COLOR===*/
+    border-bottom: 0px solid #00c3ff;
+    color: #fff;  /*===TEXT COLOR===*/
     padding-top: 15px;
     padding-bottom: 10px;
     height: auto;
@@ -141,39 +140,26 @@ html {
 .vex.vex-theme-btcpay .vex-content  {
   padding: 1px;
   border-radius:0px; /*===ROUNDED CORNER SETTINGS===*/
-  box-shadow: 0px 0px 0px 0px #000000; /*===DROP SHADOW SETTINGS===*/
+  box-shadow: 0px 0px 15px -3px #000000; /*===DROP SHADOW SETTINGS===*/
 }
 
 .vexmenu  {
-  background-color:#252525; /*===BACKGROUND COLOR===*/
+  background-color:#00c3ff; /*===BACKGROUND COLOR===*/
 }
 
 .vexmenuitem:hover {
-  background: #7a7a7a;  /*===MENU BACKGROUND COLOR===*/
-}
-
-.vexmenuitem > a span {
-  color: #e1e1e1; /*===MENU BACKGROUND COLOR===*/
-}
-
-.payment__currencies {
-  background: #7a7a7a; /*===MENU HOVER HIGHLIGHT COLOR===*/
-}
-
-.payment__currencies:hover {
-  background: #252525; /*===MENU HOVER HIGHLIGHT COLOR===*/
-  border-color: #e1e1e1;
+  background: #fff; /*===MENU BACKGROUND COLOR===*/
 }
 /*===========================*/
 
 /*===QR AND QR BACKGROUND===*/
 .invoice {
-    background-color: #000000;  /*===MENU BACKGROUND COLOR===*/
-  border-radius: 0px; /*===ROUNDED CORNER SETTINGS===*/
+    background-color: #408cca;  /*===MENU BACKGROUND COLOR===*/
+  border-radius: 6px; /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .payment-box {
-  height:425px; /*===SIZE IMPORTANT BECAUSE HEIGHT LIGHTNING QR CODE + OUTLINE===*/
+  height:420px; /*===SIZE IMPORTANT BECAUSE HEIGHT LIGHTNING QR CODE + OUTLINE===*/
 }
 
 .payment__scan {
@@ -187,83 +173,72 @@ html {
 }
 
 .recommended-fee {
-  margin-top:10px;
-  padding-top:3px;
-  height:25px;
-  background: #000000;
-  color:#e1e1e1;
+  margin-top:15px;
 }
 
 .expired__body {
-    color: #000000;
+    color: #fff;
 }
 /*==========================*/
 
 /*======COLOR OF LINKS======*/
 a {
-  color: #e1e1e1 !important;  /*===LINK COLOR===*/
+  color: #27384b !important;  /*===LINK COLOR===*/
 }
 /*==========================*/
 
 /*==="COLOR OF SOME TEXTS===*/
 span {
-  color:#e1e1e1; /*===TEXT COLOR===*/
+  color:#fff; /*===TEXT COLOR===*/
 }
 /*=========================*/
 
 /*=====LANGUAGE SELECT=====*/
 #prettydropdown-DefaultLang ul {
-  color: #e1e1e1 !important; /* ===TEXT COLOR=== */
-  background-color: #252525 !important;   /*===BACKGROUND COLOR===*/
-  border-color: #000000;
-  border-radius: 0px;
-}
-
-.checked: {
-  color:#000000;
+  color: #FFF !important; /*  ===TEXT COLOR=== */
+  background-color: #15171c !important;   /*===BACKGROUND COLOR===*/
 }
 /*===========================*/
 
 /*====INSTRUCTIONAL TEXTS====*/
 .manual__step-one__header {
-    color: #e1e1e1; /*===TEXT COLOR===*/
+    color: #fff;  /*===TEXT COLOR===*/
   opacity: 1;
 }
 .content-faded, .manual__step-one__instructions, .manual__step-two__instructions {
-    color: #e1e1e1; /*===TEXT COLOR===*/
+    color: #fff;  /*===TEXT COLOR===*/
   opacity: 1;
 }
 /*===========================*/
 
 /*====COPY INFO BOX/TEXTS====*/
 .copyBox {
-  background-color:#252525;
-  border-color:#252525;
+  background-color:#27384b;
+  border-color:#00c3ff;
 }
 
 .copyAmountText {
-  color: #e1e1e1; /*===TEXT COLOR===*/
+  color: #fff;  /*===TEXT COLOR===*/
 }
 
 .copySectionBox label {
-  color: #e1e1e1; /*===TEXT COLOR===*/
+  color: #fff;  /*===TEXT COLOR===*/
   opacity: 1;
 }
 
 .separatorGem {
-  background:#ec912f; /*===GEM ICON COLOR===*/
+  background:#408cca; /*===GEM ICON COLOR===*/
 }
 /*===========================*/
 
 /*====PAYMENT SUCCES PAGE====*/
 /*
 .success-block {
-  background-image: linear-gradient(to top, #252525, #f5f5f7); /*===GRADIENT BACKGROUND===*//*
-  height:275px;
+  background-image: linear-gradient(to bottom, #fbff0000, #fff700f2); /*===GRADIENT BACKGROUND===*//*
 }
 */
 .success-message {
-  color: #e1e1e1; /*  ===TEXT COLOR=== */
+  color: #fff; /* ===TEXT COLOR=== */
 }
 /*===========================*/
 
